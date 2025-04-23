@@ -1,0 +1,157 @@
+{
+  "id": "3",
+  "lessonId": "3",
+  "introduction": "<p>Elektrokardiyogram (EKG), kalbin elektriksel aktivitesini kaydeden önemli bir tanı aracıdır. Bu derste, EKG'nin temellerini ve nasıl yorumlanacağını öğreneceğiz.</p>",
+  "sections": [
+    {
+      "type": "text",
+      "content": "<p>EKG, kalbin elektriksel aktivitesinin zamanla değişimini gösteren bir grafiktir. Her kalp atışında oluşan elektriksel sinyaller, vücut yüzeyine yerleştirilen elektrotlar aracılığıyla kaydedilir.</p>"
+    },
+    {
+      "type": "list",
+      "title": "Standart 12 Derivasyon EKG:",
+      "items": [
+        "Ekstremite Derivasyonları: I, II, III, aVR, aVL, aVF",
+        "Prekordiyal Derivasyonlar: V1, V2, V3, V4, V5, V6",
+        "Her derivasyon, kalbi farklı bir açıdan 'görür'",
+        "Tam bir değerlendirme için tüm derivasyonlar incelenir"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "<p>Normal bir EKG dalgası şu bileşenlerden oluşur:</p><ul><li><strong>P dalgası:</strong> Atriyal depolarizasyon (atriyumların kasılması)</li><li><strong>QRS kompleksi:</strong> Ventriküler depolarizasyon (ventriküllerin kasılması)</li><li><strong>T dalgası:</strong> Ventriküler repolarizasyon (ventriküllerin gevşemesi)</li><li><strong>PR aralığı:</strong> Atriyoventriküler iletim zamanı</li><li><strong>QT aralığı:</strong> Ventriküler aktivasyon ve recovery süresi</li></ul>"
+    },
+    {
+      "type": "video",
+      "url": "https://example.com/videos/ekg-basics.mp4",
+      "caption": "EKG Dalgaları ve Yorumlama"
+    },
+    {
+      "type": "text",
+      "content": "<p>EKG'yi yorumlarken sistematik bir yaklaşım önemlidir:</p><ol><li>Ritim değerlendirmesi: Düzenli mi, düzensiz mi?</li><li>Kalp hızı hesaplama: Dakikada kaç atım?</li><li>P dalgası analizi: Şekil, süre ve yön</li><li>PR aralığı ölçümü: Normal, kısa veya uzun mu?</li><li>QRS kompleksi analizi: Genişlik ve morfoloji</li><li>ST segmenti ve T dalgası değerlendirmesi: Yükselme veya çökme var mı?</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "order": 1,
+      "text": "Aşağıdakilerden hangisi <strong>QRS kompleksi</strong>nin temsil ettiği kardiyak olayı doğru tanımlar?",
+      "points": 5,
+      "options": [
+        {
+          "id": "a",
+          "text": "Atriyal depolarizasyon"
+        },
+        {
+          "id": "b",
+          "text": "Atriyal repolarizasyon"
+        },
+        {
+          "id": "c",
+          "text": "Ventriküler depolarizasyon"
+        },
+        {
+          "id": "d",
+          "text": "Ventriküler repolarizasyon"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "QRS kompleksi, ventriküllerin depolarizasyonunu (kasılmasını) temsil eder. P dalgası atriyal depolarizasyonu gösterirken, T dalgası ventriküler repolarizasyonu (gevşemeyi) gösterir."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "order": 2,
+      "text": "Normal bir PR aralığı 0.12-0.20 saniye (3-5 küçük kare) arasındadır.",
+      "points": 3,
+      "correctAnswer": true,
+      "explanation": "Doğru! Normal PR aralığı 0.12-0.20 saniye arasındadır. PR aralığı, atriyoventriküler düğümden (AV node) geçen elektriksel iletimin zamanını gösterir. Bu aralığın uzaması, AV blok gibi iletim bozukluklarını işaret edebilir."
+    },
+    {
+      "id": "q3",
+      "type": "matching",
+      "order": 3,
+      "text": "Aşağıdaki EKG bileşenlerini ilgili oldukları kardiyak olaylarla eşleştirin:",
+      "points": 8,
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "P dalgası"
+        },
+        {
+          "id": "l2",
+          "text": "QRS kompleksi"
+        },
+        {
+          "id": "l3",
+          "text": "T dalgası"
+        },
+        {
+          "id": "l4",
+          "text": "ST segmenti"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Atriyal depolarizasyon"
+        },
+        {
+          "id": "r2",
+          "text": "Ventriküler depolarizasyon"
+        },
+        {
+          "id": "r3",
+          "text": "Ventriküler repolarizasyon"
+        },
+        {
+          "id": "r4",
+          "text": "Ventriküler depolarizasyon sonu ile repolarizasyon başlangıcı arası"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "EKG dalgaları ve segmentleri kalbin spesifik elektrofizyolojik olaylarını temsil eder. Bu bileşenlerin doğru yorumlanması, kardiyak fonksiyonun ve potansiyel anormalliklerin anlaşılmasını sağlar."
+    },
+    {
+      "id": "q4",
+      "type": "drag_and_drop",
+      "order": 4,
+      "text": "EKG yorumlarken izlenmesi gereken sistematik yaklaşımın adımlarını doğru sırayla düzenleyin:",
+      "points": 10,
+      "items": [
+        {
+          "id": "i1",
+          "text": "P dalgası analizi"
+        },
+        {
+          "id": "i2",
+          "text": "Ritim değerlendirmesi"
+        },
+        {
+          "id": "i3",
+          "text": "QRS kompleksi analizi"
+        },
+        {
+          "id": "i4",
+          "text": "Kalp hızı hesaplama"
+        },
+        {
+          "id": "i5",
+          "text": "ST segmenti ve T dalgası değerlendirmesi"
+        },
+        {
+          "id": "i6",
+          "text": "PR aralığı ölçümü"
+        }
+      ],
+      "correctOrder": ["i2", "i4", "i1", "i6", "i3", "i5"],
+      "explanation": "EKG yorumlarken önce ritim ve hız değerlendirilir, ardından P dalgasından başlayarak sırasıyla PR aralığı, QRS kompleksi ve ST-T değişiklikleri incelenir. Bu sistematik yaklaşım, anormalliklerin gözden kaçırılmasını önler."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "2",
+  "lessonId": "2",
+  "introduction": "<p>Kardiyak döngü, kalbin kasılma (sistol) ve gevşeme (diyastol) aşamalarını kapsayan düzenli döngüsüdür. Bu süreç, vücudun tamamına kan pompalanmasını sağlar.</p>",
+  "sections": [
+    {
+      "type": "text",
+      "content": "<p>Kardiyak döngü, kalbin bir atımı boyunca gerçekleşen basınç, hacim, elektriksel ve ses değişikliklerinin tümünü kapsar. Bir kardiyak döngü yaklaşık 0.8 saniye sürer ve istirahat halindeki bir yetişkinde dakikada 75 kez gerçekleşir.</p>"
+    },
+    {
+      "type": "list",
+      "title": "Kardiyak Döngü Aşamaları:",
+      "items": [
+        "Atriyal sistol: Atriyumlar kasılır, kan ventriküllere dolar",
+        "Ventriküler sistol: Ventriküller kasılır, kan arteriyel sisteme pompalanır",
+        "Atriyal diyastol: Atriyumlar gevşer, venöz sistemden kan alır",
+        "Ventriküler diyastol: Ventriküller gevşer, atriyumlardan kan alır"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://example.com/videos/cardiac-cycle.mp4",
+      "caption": "Kardiyak Döngü Animasyonu"
+    },
+    {
+      "type": "text",
+      "content": "<p>Kalp kapaklarının açılıp kapanması, kardiyak döngünün önemli bir bileşenidir. Bu kapaklar, kanın geri akışını önleyerek tek yönlü akışı sağlar.</p><p>Kardiyak döngü sırasında kalp sesleri duyulur. <strong>S1</strong> (lub) sesi, atriyoventriküler kapakların kapanması ile; <strong>S2</strong> (dub) sesi ise semilunar kapakların kapanması ile oluşur.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "order": 1,
+      "text": "Kardiyak döngüde aşağıdakilerden hangisi <strong>ventriküler sistol</strong> sırasında gerçekleşir?",
+      "points": 5,
+      "options": [
+        {
+          "id": "a",
+          "text": "Atriyumlar kanla dolar"
+        },
+        {
+          "id": "b",
+          "text": "Semilunar kapaklar kapanır"
+        },
+        {
+          "id": "c",
+          "text": "Aort ve pulmoner kapaklar açılır"
+        },
+        {
+          "id": "d",
+          "text": "Atrioventriküler kapaklar açılır"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "Ventriküler sistol sırasında, ventriküller kasılır ve semilunar kapaklar (aort ve pulmoner) açılarak kanın arteriyel sisteme akmasına izin verir."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "order": 2,
+      "text": "Atrioventriküler kapaklar, ventriküler sistol sırasında kanın atriyumlara geri kaçmasını önlemek için kapanır.",
+      "points": 3,
+      "correctAnswer": true,
+      "explanation": "Doğru! Ventriküler sistol başladığında, ventriküllerdeki artan basınç atrioventriküler kapakları (mitral ve triküspid) kapatır, böylece kanın atriyumlara geri kaçması önlenir."
+    },
+    {
+      "id": "q3",
+      "type": "matching",
+      "order": 3,
+      "text": "Aşağıdaki kalp kapakçıklarını doğru konumlarıyla eşleştirin:",
+      "points": 8,
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Mitral Kapak"
+        },
+        {
+          "id": "l2",
+          "text": "Triküspid Kapak"
+        },
+        {
+          "id": "l3",
+          "text": "Aort Kapağı"
+        },
+        {
+          "id": "l4",
+          "text": "Pulmoner Kapak"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Sol atriyum - sol ventrikül arası"
+        },
+        {
+          "id": "r2",
+          "text": "Sağ atriyum - sağ ventrikül arası"
+        },
+        {
+          "id": "r3",
+          "text": "Sol ventrikül - aort arası"
+        },
+        {
+          "id": "r4",
+          "text": "Sağ ventrikül - pulmoner arter arası"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Kalp kapakçıkları, kan akışının tek yönlü olmasını sağlar. Mitral ve triküspid kapaklar atriyumlar ile ventriküller arasında, aort ve pulmoner kapaklar ise ventriküller ile büyük arterler arasında bulunur."
+    },
+    {
+      "id": "q4",
+      "type": "drag_and_drop",
+      "order": 4,
+      "text": "Kardiyak döngü aşamalarını doğru sırayla düzenleyin:",
+      "points": 10,
+      "items": [
+        {
+          "id": "i1",
+          "text": "Ventriküler sistol"
+        },
+        {
+          "id": "i2",
+          "text": "Atriyal sistol"
+        },
+        {
+          "id": "i3",
+          "text": "Ventriküler diyastol"
+        },
+        {
+          "id": "i4",
+          "text": "Atriyal diyastol"
+        }
+      ],
+      "correctOrder": ["i4", "i2", "i1", "i3"],
+      "explanation": "Kardiyak döngü normalde atriyal diyastol ile başlar (atrium gevşer ve dolar), ardından atriyal sistol (atriumlar kasılır), ventriküler sistol (ventriküller kasılır) ve son olarak ventriküler diyastol (ventriküller gevşer) gelir."
+    }
+  ]
+}

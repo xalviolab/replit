@@ -1,0 +1,157 @@
+{
+  "id": "1",
+  "lessonId": "1",
+  "introduction": "<p>Kalp, insan vücudunun en hayati organlarından biridir. Bu derste kalbin temel yapısını ve fonksiyonlarını inceleyeceğiz.</p>",
+  "sections": [
+    {
+      "type": "text",
+      "content": "<p>Kalp, göğüs kafesinin merkezinde, sternum (göğüs kemiği) arkasında yer alan, yumruk büyüklüğünde bir organdır. Kalp, dört odacıktan oluşur: iki kulakçık (atrium) ve iki karıncık (ventrikül).</p>"
+    },
+    {
+      "type": "list",
+      "title": "Kalbin Bölümleri:",
+      "items": [
+        "Sağ Atriyum: Vücuttan gelen kanı alır",
+        "Sağ Ventrikül: Kanı akciğerlere pompalar",
+        "Sol Atriyum: Akciğerlerden gelen kanı alır",
+        "Sol Ventrikül: Kanı vücuda pompalar"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "<p>Kalbin etrafında, kalbi koruyan ve destekleyen <strong>perikard</strong> adı verilen bir zar bulunur. Kalbin duvarı, <strong>miyokard</strong> adı verilen kalp kası tabakasından oluşur. İç yüzeyi <strong>endokard</strong> adı verilen ince bir zar ile kaplıdır.</p>"
+    },
+    {
+      "type": "video",
+      "url": "https://example.com/videos/heart-anatomy.mp4",
+      "caption": "3D Kalp Anatomi Modeli"
+    },
+    {
+      "type": "text",
+      "content": "<p>Kalbin çalışma mekanizması, bir pompa sistemi şeklindedir. Sağ taraf, vücuttan dönen düşük oksijeni kanı akciğerlere pompalar. Sol taraf ise akciğerlerden gelen oksijence zengin kanı vücuda pompalar.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "order": 1,
+      "text": "Aşağıdakilerden hangisi <strong>kalbin odacıkları</strong> arasında yer almaz?",
+      "points": 5,
+      "options": [
+        {
+          "id": "a",
+          "text": "Sağ Atriyum"
+        },
+        {
+          "id": "b",
+          "text": "Sol Ventrikül"
+        },
+        {
+          "id": "c",
+          "text": "Epikard"
+        },
+        {
+          "id": "d",
+          "text": "Sol Atriyum"
+        }
+      ],
+      "correctOption": "c",
+      "explanation": "Epikard, kalbin odacıkları arasında değil, kalbi saran perikardiyal zarın bir parçasıdır. Diğer tüm seçenekler kalbin dört odacığını oluşturur."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "order": 2,
+      "text": "Sol ventrikül, sağ ventriküle göre daha kalın duvarlıdır çünkü kanı tüm vücuda pompalamak için daha fazla güç gerektirir.",
+      "points": 3,
+      "correctAnswer": true,
+      "explanation": "Doğru! Sol ventrikül duvarları, kanı tüm vücuda pompalamak için gereken yüksek basıncı oluşturabilmek amacıyla sağ ventriküle göre 3-4 kat daha kalındır."
+    },
+    {
+      "id": "q3",
+      "type": "matching",
+      "order": 3,
+      "text": "Aşağıdaki kalp bölümlerini, işlevleriyle eşleştirin:",
+      "points": 8,
+      "leftItems": [
+        {
+          "id": "l1",
+          "text": "Sağ Atriyum"
+        },
+        {
+          "id": "l2",
+          "text": "Sağ Ventrikül"
+        },
+        {
+          "id": "l3",
+          "text": "Sol Atriyum"
+        },
+        {
+          "id": "l4",
+          "text": "Sol Ventrikül"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "r1",
+          "text": "Vücuttan gelen kanı alır"
+        },
+        {
+          "id": "r2",
+          "text": "Kanı akciğerlere pompalar"
+        },
+        {
+          "id": "r3",
+          "text": "Akciğerlerden gelen kanı alır"
+        },
+        {
+          "id": "r4",
+          "text": "Kanı vücuda pompalar"
+        }
+      ],
+      "correctMatches": {
+        "l1": "r1",
+        "l2": "r2",
+        "l3": "r3",
+        "l4": "r4"
+      },
+      "explanation": "Kalbin sağ tarafı vücuttan gelen oksijeni tükenmiş kanı akciğerlere pompalar, sol tarafı ise akciğerlerden gelen oksijence zengin kanı vücuda pompalar."
+    },
+    {
+      "id": "q4",
+      "type": "drag_and_drop",
+      "order": 4,
+      "text": "Kanın kalp içindeki dolaşım yolunu doğru sırayla düzenleyin:",
+      "points": 10,
+      "items": [
+        {
+          "id": "i1",
+          "text": "Sağ Atriyum"
+        },
+        {
+          "id": "i2",
+          "text": "Sağ Ventrikül"
+        },
+        {
+          "id": "i3",
+          "text": "Akciğerler"
+        },
+        {
+          "id": "i4",
+          "text": "Sol Atriyum"
+        },
+        {
+          "id": "i5",
+          "text": "Sol Ventrikül"
+        },
+        {
+          "id": "i6",
+          "text": "Vücut Dokuları"
+        }
+      ],
+      "correctOrder": ["i1", "i2", "i3", "i4", "i5", "i6"],
+      "explanation": "Kan dolaşımı şu şekilde gerçekleşir: Vücuttan gelen kan sağ atriyuma girer, sağ ventriküle geçer ve akciğerlere pompalanır. Akciğerlerde oksijenlenen kan sol atriyuma döner, sol ventriküle geçer ve vücuda pompalanır."
+    }
+  ]
+}

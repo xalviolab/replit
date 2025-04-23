@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1",
+    "title": "Temel Kavramlar",
+    "order": 1,
+    "description": "Kalp anatomisi, kardiyak döngü ve temel fizyoloji",
+    "lessons": [
+      {
+        "id": "1",
+        "moduleId": "1",
+        "moduleIndex": 0,
+        "lessonIndex": 0,
+        "totalLessonsInModule": 3,
+        "title": "Kalp Anatomisi",
+        "description": "Kalbin yapısı ve temel fonksiyonları",
+        "duration": 10,
+        "status": "completed",
+        "progress": 100,
+        "rating": 4.8,
+        "nextLessonId": "2",
+        "nextLessonTitle": "Kardiyak Döngü"
+      },
+      {
+        "id": "2",
+        "moduleId": "1",
+        "moduleIndex": 0,
+        "lessonIndex": 1,
+        "totalLessonsInModule": 3,
+        "title": "Kardiyak Döngü",
+        "description": "Sistol ve diyastol fazlarının incelenmesi",
+        "duration": 15,
+        "status": "in_progress",
+        "progress": 70,
+        "prevLessonId": "1",
+        "prevLessonTitle": "Kalp Anatomisi",
+        "nextLessonId": "3",
+        "nextLessonTitle": "EKG Temelleri"
+      },
+      {
+        "id": "3",
+        "moduleId": "1",
+        "moduleIndex": 0,
+        "lessonIndex": 2,
+        "totalLessonsInModule": 3,
+        "title": "EKG Temelleri",
+        "description": "Elektrokardiyogram okuma ve yorumlama",
+        "duration": 12,
+        "status": "locked",
+        "lockReason": "Önceki dersi tamamla",
+        "prevLessonId": "2",
+        "prevLessonTitle": "Kardiyak Döngü"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "İleri Konular",
+    "order": 2,
+    "description": "Kalp kapakçıkları, kardiyovasküler sistem ve aritmiler",
+    "lessons": [
+      {
+        "id": "4",
+        "moduleId": "2",
+        "moduleIndex": 1,
+        "lessonIndex": 0,
+        "totalLessonsInModule": 3,
+        "title": "Kalp Kapakçıkları",
+        "description": "Mitral ve aort kapakçıkları fonksiyonları",
+        "duration": 20,
+        "status": "locked",
+        "lockReason": "Modül 1'i tamamla"
+      },
+      {
+        "id": "5",
+        "moduleId": "2",
+        "moduleIndex": 1,
+        "lessonIndex": 1,
+        "totalLessonsInModule": 3,
+        "title": "Kardiyovasküler Sistem",
+        "description": "Dolaşım sistemi ve kan akışı",
+        "duration": 15,
+        "status": "locked",
+        "lockReason": "Modül 1'i tamamla"
+      },
+      {
+        "id": "6",
+        "moduleId": "2",
+        "moduleIndex": 1,
+        "lessonIndex": 2,
+        "totalLessonsInModule": 3,
+        "title": "Kardiyak Aritmiler",
+        "description": "Ritim bozuklukları ve tanıları",
+        "duration": 18,
+        "status": "locked",
+        "lockReason": "Modül 1'i tamamla"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Klinik Uygulamalar",
+    "order": 3,
+    "description": "Klinik vakalar ve tanı yöntemleri",
+    "lessons": [
+      {
+        "id": "7",
+        "moduleId": "3",
+        "moduleIndex": 2,
+        "lessonIndex": 0,
+        "totalLessonsInModule": 3,
+        "title": "Koroner Arter Hastalığı",
+        "description": "Tanı, tedavi ve takip yöntemleri",
+        "duration": 25,
+        "status": "locked",
+        "lockReason": "Modül 2'yi tamamla"
+      },
+      {
+        "id": "8",
+        "moduleId": "3",
+        "moduleIndex": 2,
+        "lessonIndex": 1,
+        "totalLessonsInModule": 3,
+        "title": "Kalp Yetmezliği",
+        "description": "Patofizyoloji ve klinik yaklaşım",
+        "duration": 22,
+        "status": "locked",
+        "lockReason": "Modül 2'yi tamamla"
+      },
+      {
+        "id": "9",
+        "moduleId": "3",
+        "moduleIndex": 2,
+        "lessonIndex": 2,
+        "totalLessonsInModule": 3,
+        "title": "Acil Kardiyoloji",
+        "description": "Akut koroner sendrom ve diğer aciller",
+        "duration": 30,
+        "status": "locked",
+        "lockReason": "Modül 2'yi tamamla"
+      }
+    ]
+  }
+]
